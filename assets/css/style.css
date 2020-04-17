@@ -6,8 +6,8 @@
     color: #0984ec;
     text-align: center;
     font-family: 'Hind Siliguri', sans-serif;
-    
 }
+
 #placar {
     display: flex;
     align-items: center;
@@ -77,25 +77,21 @@ ul#computador-escolha li {
 }
 
 ul#jogador-escolha li a,
-ul#computador-escolha li a
-
-
-{
+ul#computador-escolha li a {
     opacity: .2;
 }
 
 ul#jogador-escolha li a:hover ,
 ul#jogador-escolha li a.selecionado,
-ul#computador-escolha li a.selecionado
-{
+ul#computador-escolha li a.selecionado {
     opacity: 1;
 }
 
-ul#jogador-escolha li a,
-img,
+ul#jogador-escolha li a, img,
 ul#computador-escolha li a img {
     max-width: 80px;
 }
+
 #mensagens{
     background-color: #b2bec3;
     border-radius: 5px;
