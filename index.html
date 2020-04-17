@@ -48,7 +48,22 @@
         //1-Rock;
         //2-Paper;
         //3-scissors;
-    
+     //Robot choose Rock and Player choose Rock (Draw=0) 
+     if((playerChoose ==1) && (robotChoose==1)){
+         winner=0;
+     //Robot chooses Paper, Player chooses Rock ganha (Robot wins:2)
+     }
+     else if((playerChoose ==1) && (robotChoose ==2)){
+         winner=2;
+     }
+     //Player choose Rock, Robot choose scissors (player wins:1)
+     else if((playerChoose ==1) && (robotChoose==3)){
+         winner=1; 
+     }
+     //Player choose paper, Robot choose Rock, Player wins (1)
+     else if((playerChoose==2) && (robotChoose==1)){
+         winner=1;
+        
 
 
 </script>
