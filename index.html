@@ -63,7 +63,45 @@
      //Player choose paper, Robot choose Rock, Player wins (1)
      else if((playerChoose==2) && (robotChoose==1)){
          winner=1;
-        
+        }else if((playerChoose ==2) && (robotChoose ==2)){
+         winner=0;
+     }
+     else if((playerChoose ==2) && (robotChoose==3)){
+         winner=2;
+     }
+     //Player chooses scissors, Robot Rock, (Robot wins: 2)
+     else if((playerChoose==3) && (robotChoose==1)){
+         winner=2;
+     }
+     // player chooses scissors, Robot chooses role, (Player wins:1)
+     else if((playerChoose ==3) && (robotChoose ==2)){
+         winner=1;
+     }
+     //Player choose Scissors, Robot choose Scissors (Draw: 0) 
+     else if((playerChoose ==3) && (robotChoose==3)){
+         winner=0;
+     }
+     
+     
+
+
+     document.getElementById("jogador-escolha-"+playerChoose).classList.add('selecionado');
+     document.getElementById("computador-escolha-"+robotChoose).classList.add('selecionado');
+     if(winner == 0){
+     document.getElementById('mensagens').innerHTML ='Empate';
+     }
+     else if(winner==1){
+         document.getElementById('mensagens').innerHTML ='Jogador Ganhou!';
+         playerPonts++;
+     }
+     else if(winner ==2){
+         document.getElementById('mensagens').innerHTML ='Computador Ganhou!'
+         robotPonts++;
+     }
+     document.getElementById('jogador-pontos').innerHTML=playerPonts;
+     document.getElementById('computador-pontos').innerHTML=robotPonts;
+     }
+     
 
 
 </script>
