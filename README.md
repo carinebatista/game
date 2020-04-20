@@ -1,3 +1,3 @@
-# Jogo Pedra Papel Tesoura
+# Jogo Pedra-Papel-Tesoura
 
-Este é o meu projeto, um jogo de pedra, papel e Tesoura, utilizando apenas JavaScript! 
+Olá! Este é o meu projeto, um jogo de pedra-papel-Tesoura, utilizando apenas JavaScript e CSS! 
