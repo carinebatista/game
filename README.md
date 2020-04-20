@@ -1,0 +1,1 @@
+Este é meu jogo de pedra, papel e Tesoura, utilizando apenas JavaScript! 
